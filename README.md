@@ -1,2 +1,27 @@
-# ai2
-node_modules/@angular/platform-browser/src/browser/location/browser_platform_location.d.ts:15:22 - error TS2515: Non-abstract class 'BrowserPlatformLocation' does not implement inherited abstract member 'port' from class 'PlatformLocation'.                                                                                                                        15 export declare class BrowserPlatformLocation extends PlatformLocation {                                                                      ~~~~~~~~~~~~~~~~~~~~~~~                                                                         node_modules/@angular/platform-browser/src/browser/location/browser_platform_location.d.ts:15:22 - error TS2515: Non-abstract class 'BrowserPlatformLocation' does not implement inherited abstract member 'protocol' from class 'PlatformLocation'.                                                                                                                                                                                                                                            15 export declare class BrowserPlatformLocation extends PlatformLocation {                                                                      ~~~~~~~~~~~~~~~~~~~~~~~                                                                         src/app/navbar/navbar.component.ts:1:37 - error TS2724: Module '"C:/Users/bala.MSP-Prod/Desktop/Project/A7/ui/node_modules/@angular/core/core"' has no exported member 'Renderer'. Did you mean 'Renderer2'?                                                                                                                                                            1 import { Component, Inject, OnInit, Renderer, ElementRef } from '@angular/core';                                                                            ~~~~~~~~                                                                                                                                                                                                    node_modules/@angular/core/core.d.ts:5692:31                                                                              5692 export declare abstract class Renderer2 {                                                                                                             ~~~~~~~~~                                                                            'Renderer2' is declared here.
+Angular CLI: 9.0.2
+Node: 13.8.0
+OS: win32 x64
+
+Angular: 9.0.1
+... animations, common, compiler, compiler-cli, core, forms
+... localize, platform-browser, platform-browser-dynamic, router
+Ivy Workspace: Yes
+
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.900.2
+@angular-devkit/build-angular     0.900.2
+@angular-devkit/build-optimizer   0.900.2
+@angular-devkit/build-webpack     0.900.2
+@angular-devkit/core              9.0.2
+@angular-devkit/schematics        9.0.2
+@angular/cdk                      9.0.0
+@angular/cli                      9.0.2
+@angular/language-service         7.2.16
+@angular/material                 9.0.0
+@ngtools/webpack                  9.0.2
+@schematics/angular               9.0.2
+@schematics/update                0.900.2
+rxjs                              6.5.4
+typescript                        3.7.5
+webpack                           4.41.6
