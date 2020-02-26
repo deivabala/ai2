@@ -4,6 +4,10 @@
 <title>Page Title</title>
 </head>
 <style>
+._2fpj9, ._3x0ey {
+    display: -ms-flexbox;
+    display: flex;
+}
 ._2Vb6W {
     margin-bottom: 15px;
 }
@@ -48,10 +52,46 @@
     -ms-transform: scaleX(.7);
     transform: scaleX(.7);
 }
+._3AmpP:after, ._3AmpP:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+}
+
+._3AmpP:before {
+    top: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #daceb7;
+}
+._3AmpP:after {
+    top: -2px;
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+}
+._3ohAi:after, ._3ohAi:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    width: 10px;
+    height: 10px;
+}
+._3ohAi:before {
+    bottom: 0;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #daceb7;
+}
+._3ohAi:after {
+    bottom: -2px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #fff;
+}
 </style>
 <body>
 
-<div class="_2fpj9 _2Vb6W"><img width="20" height="20" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_40,h_40/fxefc4yntssypnrgqarn" class="_33BbS"><span class="_2prG7">FCH30<span class="_3AmpP"></span><span class="_3ohAi"></span></span></div>
-
+<div class="_3x0ey"><div class="_2fpj9 _2Vb6W"><img width="20" height="20" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_40,h_40/fxefc4yntssypnrgqarn" class="_33BbS"><span class="_2prG7">FCH30<span class="_3AmpP"></span><span class="_3ohAi"></span></span></div></div>
 </body>
 </html>
