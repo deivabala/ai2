@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<style>
+._2Vb6W {
+    margin-bottom: 15px;
+}
+
+._2fpj9, ._3x0ey {
+ 
+    display: flex;
+}
+._2fpj9 {
+    min-width: 105px;
+    height: 35px;
+    border: 1px solid #daceb7;
+    background-color: #fffae6;
+    align-items: center;
+}
+._2prG7 {
+    font-size: 1.07rem;
+    font-weight: 500;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    position: relative;
+    padding: 0 15px;
+}
+._3AmpP {
+    position: absolute;
+    top: -1px;
+    left: -3.5px;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -ms-transform: scaleX(.7);
+    transform: scaleX(.7);
+}
+._3ohAi {
+    position: absolute;
+    bottom: -1px;
+    left: -3.5px;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -ms-transform: scaleX(.7);
+    transform: scaleX(.7);
+}
+</style>
+<body>
+
+<div class="_2fpj9 _2Vb6W"><img width="20" height="20" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_40,h_40/fxefc4yntssypnrgqarn" class="_33BbS"><span class="_2prG7">FCH30<span class="_3AmpP"></span><span class="_3ohAi"></span></span></div>
+
+</body>
+</html>
