@@ -1,0 +1,27 @@
+{
+  "AzureTenantId": "Tenat id",
+  "AzureClientId": "Client id",
+  "AzureClientSecret": "client sert",
+  "AzureSubscriptionId": "sub id",
+  "AllVpn" :false,
+  "VpnToMonitor": [{
+    "ResourceGroupName" : "res1",
+    "ConnectionName" : "conn1"
+  },
+  {
+    "ResourceGroupName" : "res2",
+    "ConnectionName" : "conn2"
+  },
+  {
+    "ResourceGroupName" : "res3",
+    "ConnectionName" : "conn3"
+  }],
+  "VcpuToMonitor": [{
+    "id":1,
+    "Location" : "central india"
+  },
+  {
+    "id" : 2,
+    "Location" : "south india"
+  }]
+}
